@@ -27,7 +27,7 @@ Initialize the IMU:
 
 Start the IMU:
 
-`roslaunch euler_imu imu_gx3-35_init.launch --screen`
+`roslaunch euler_imu imu_gx3-35_full_start.launch --screen`
 
 Check the pose stream of the IMU:
 
