@@ -8,9 +8,11 @@ Collect data from Pola + IMU
 
 
 Initialize the Camera node:
+
 `roslaunch pylon_camera pylon_camera_node_G1.launch`
 
 Check the image_raw stream:
+
 `rqt_image_view`
 
 
@@ -19,11 +21,16 @@ Check the image_raw stream:
 - Connect the IMU to the computer. (You can also follow instructions [here](https://github.com/roboticslab-fr/euler_imu) if not installed)
 - Test the IMU stream.
 
-Initialize the IMU
+Initialize the IMU:
+
 `roslaunch euler_imu imu_gx3-35_init.launch --screen`
-Start the IMU
+
+Start the IMU:
+
 `roslaunch euler_imu imu_gx3-35_init.launch --screen`
-Check the pose stream of the IMY
+
+Check the pose stream of the IMU:
+
 `rostopic echo /imu_3dm_node/imu/pose`
 
 ***
